@@ -1,0 +1,20 @@
+spring:
+  datastax:
+    astra:
+      secure-connect-bundle: classpath:secure-connect-voter.zip
+  cassandra:
+    keyspace-name: vtr123
+    username: AedsoMSNZkbrLDvNLBhRxSJc
+    password: X2+GxII7kG_sJjC6Zp6H0vxjdEHXCRy81Sa,B+F_mL,oOGh5JnLE24ycmPcKlvQsH_oYrXw+YX5MDGAiPUfpGrfIXC.,axheg,o,kBIgFKLGZaH7vDSIkk2axdD,bu,D
+    schema-action:
+    request:
+      timeout: 10s
+    connection:
+      connect-timeout: 10s
+      init-query-timeout: 10s
+
+datastax.astra:
+  id: a3c0994c-51a2-4a51-afdf-820b963df090
+  region: us-east1
+  keyspace: vtr123
+  application-token: AstraCS:AedsoMSNZkbrLDvNLBhRxSJc:3368e44924d04dc30233bc7daa078df459eb246b5a579eadfa4ffa094095fbea
